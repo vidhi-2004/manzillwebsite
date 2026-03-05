@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manzilll Production</title>
+    <title>Manzilll Production | Music Production & Sound Design</title>
+
+    <meta name="description"
+        content="Professional music production, mixing, mastering, film background scores and orchestral arrangements by Manzilll Production.">
+
+    <meta name="keywords"
+        content="Music Production, Mixing, Mastering, Film Score, Background Music, Orchestral Arrangement, Sound Design">
+
+    <meta name="author" content="Manzilll Production">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/Manzilll_Favicon.png">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="images/Manzilll Horizontal Logo (2).png" alt="Logo">
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About Us </a>
+                <a href="#Our Story">Our Story </a>
+                <a href="#projects">Projects</a>
+                <a href="#services"> Our Services</a>
+                <a href="#Testimonials"> Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <!-- Search Bar -->
+            <div class="nav-search">
+                <input type="text" id="searchInput" placeholder="Search..."
+                    onkeypress="if(event.key==='Enter'){searchSite()}">
+                <button type="button" onclick="searchSite()">
+                    <img src="images/search.png" alt="Search">
+                </button>
+            </div>
+
+            <!-- Hamburger -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- Home Section -->
+    <section id="home" class="home">
+
+        <video class="home-video" autoplay muted loop playsinline>
+            <source src="images/6694898_Sound_Designer_1920x1080.mp4" type="video/mp4">
+        </video>
+        <div class="home-overlay"></div>
+        <div class="home-content">
+            <h1>
+                <span class="heading-bold">Music  </span>
+                <span class="heading-light"> That Shapes </span>
+                  <span class="heading-bold">Emotion.</span>
+            </h1>
+            <p>From film scores to independent releases, we compose, produce, and bring sound to life because we
+                create music for peace.</p>
+            <p class="release-line">Discover what we just dropped</p>
+
+            <a href="https://youtu.be/XfPyymmaNkw?si=9nvCvuYDx_W4k7Xw" target="_blank" class="btn">
+                New Releases
+            </a>
+        </div>
+        <!-- NEW RELEASE POPUP -->
+        <div id="releasePopup" class="popup-overlay">
+            <div class="popup-box">
+
+                <div class="popup-top">
+                    <img src="images/Manzilll Logo.png" class="popup-logo-corner" alt="Logo">
+                    <span class="close-btn" onclick="closePopup()">×</span>
+                </div>
+
+                <h2 class="popup-title">New Release</h2>
+
+                <div class="popup-cover-wrapper">
+                    <img src="images/new realse.avif" class="popup-cover" alt="Music Cover">
+                    <p>Shyaam Ni Bansi</p>
+
+                    <a href="https://youtu.be/XfPyymmaNkw?si=9nvCvuYDx_W4k7Xw" target="_blank" class="popup-play">▶</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    </section>
+    <!-- ABOUT SECTION -->
+
+    <section id="about" class="about-section">
+        <div class="about-wrapper">
+
+            <!-- LEFT SIDE -->
+            <div class="about-left">
+                <div class="about-img">
+                    <img src="images/aboutus.jpeg" alt="Manzilll Production Studio">
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="about-right">
+                <h2>
+                    <span class="heading-bold">About</span>
+                    <span class="heading-light">Us</span>
+                </h2>
+                <div class="section-line"></div>
+
+                <p>
+                    We are a music production studio built around
+                   storytelling, emotion, and sound
+                </p>
+
+                <p>
+
+                    Every project we create is designed to enhance visuals,
+                    elevate narratives, and connect with audiences.
+                </p>
+
+                <ul>
+                    <li>Full-service music production studio for films, brands,<br> and artists</li>
+                    <li>Original composition, background scores, songs, and <br>promotional soundtracks</li>
+                    <li>End-to-end production — from concept to final master</li>
+                    <li>Strong focus on cinematic storytelling and modern <br>sound design</li>
+                    <li>Collaborations with filmmakers, agencies, creators,<br> and independent talent</li>
+                    <li>Driven by emotion, precision, and impactful <br> listening experiences</li>
+                </ul>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- OUR STORY SECTION -->
+    <section class="OurStory" id="Our Story">
+
+        <div class="OurStory-container">
+
+            <h2 class="OurStory-heading">
+                <span class="bold-part">Our</span>
+                <span class="regular-part"> Story</span>
+            </h2>
+
+            <div class="section-line"></div>
+
+            <div class="our-story-content">
+
+                <div class="story-text">
+
+                    <p>
+                        Jay Joshi started early in the music space, forming Ahmedabad’s first band in 2008 at the
+                        age of 16 and leading it actively until 2010. He later moved to Mumbai to pursue film
+                        school, completing his sound engineering studies while continuing to perform as a solo
+                        artist and bassist, building a strong technical and production-driven approach to music.
+                    </p>
+
+                    <p>
+                        Tejas Vora began his musical journey as a vocalist, performing at live shows and
+                        competitions during his academic years. In 2011, he expanded into composition and lyric
+                        writing at ISKCON, New Vidyanagar, Anand — developing a strong foundation in melody, poetry,
+                        and emotional storytelling through music.
+                    </p>
+
+                    <p>
+                        Both artists eventually began working together creatively, combining lyrical sensibility
+                        with production depth and cinematic sound.
+                    </p>
+
+                    <p>
+                        In 2015, they released their first track under Manzilll Production, marking the beginning of
+                        a shared creative journey focused on original compositions and evolving musical expression.
+                    </p>
+
+                </div>
+
+
+                <div class="story-image">
+                    <div class="image-wrapper">
+                        <img src="images/Our Story (1).png" alt="our story">
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- RUNNING STRIP -->
+    <div class="ticker">
+        <div class="ticker-track">
+            <span>🎵 Film Background Scores</span>
+            <span>🎬 Cinematic Sound Design</span>
+            <span>🎧 Mixing & Mastering</span>
+            <span>🎼 Orchestral Arrangements</span>
+            <span>🔥 Trailer Music Production</span>
+            <span>🎤 Recording & Voiceovers</span>
+
+            <!-- Duplicate for smooth infinite effect -->
+            <span>🎵 Film Background Scores</span>
+            <span>🎬 Cinematic Sound Design</span>
+            <span>🎧 Mixing & Mastering</span>
+            <span>🎼 Orchestral Arrangements</span>
+            <span>🔥 Trailer Music Production</span>
+            <span>🎤 Recording & Voiceovers</span>
+        </div>
+    </div>
+    <!-- Projects -->
+    <section id="projects">
+        <div class="section-header">
+            <h1>
+                <span class="heading-bold">Projects</span>
+            </h1>
+            <div class="section-line"></div>
+        </div>
+
+
+        <div class="projects">
+
+            <!-- Project 1 (existing) -->
+            <a href="https://youtu.be/iv_ntTUPaTg" target="_blank" rel="noopener noreferrer" class="project-item">
+                <img src="https://img.youtube.com/vi/iv_ntTUPaTg/maxresdefault.jpg"
+                    alt="Thumbnail for Kaafi Arse Guzre - Lonely Sunset emotional song" loading="lazy">
+                <div class="play-btn"><i class="fas fa-play"></i></div>
+                <div class="project-overlay">
+                    <h3>
+                        <span class="heading-bold">Kaafi Arse Guzre - Lonely Sunset</span>
+
+                    </h3>
+                    <p>Father-Son Themed Track • Watch on YouTube</p>
+                </div>
+            </a>
+            <!-- Project 2  (existing) -->
+            <a href="https://youtu.be/XKX4TI4IOeg?si=dyi5yh-55OzG-gVO" target="_blank" rel="noopener noreferrer"
+                class="project-item">
+                <img src="images/poject 1.avif"
+                    alt="Thumbnail for Tara Vagar Final file - Gujarati original single by Jay Tejas" loading="lazy">
+                <div class="play-btn"><i class="fas fa-play"></i></div>
+                <div class="project-overlay">
+                    <h3>
+                        <span class="heading-bold">Tara Vagar Final file</span>
+
+                    </h3>
+                    <p>Original Gujarati Single • Watch on YouTube</p>
+                </div>
+            </a>
+
+
+
+            <!-- Project 3 (existing) -->
+            <a href="https://youtu.be/Jc2autMcr8k" target="_blank" rel="noopener noreferrer" class="project-item">
+                <img src="https://img.youtube.com/vi/Jc2autMcr8k/maxresdefault.jpg"
+                    alt="Thumbnail for Duniya Thi Bekhabar by Manzilll JT original single" loading="lazy">
+                <div class="play-btn"><i class="fas fa-play"></i></div>
+                <div class="project-overlay">
+                    <h3>
+                        <span class="heading-bold">Duniya Thi Bekhabar by Manzilll JT</span>
+
+                    </h3>
+                    <p>Emotional Original • Watch on YouTube</p>
+                </div>
+            </a>
+
+            <!-- Project 4 (existing) -->
+            <a href="https://youtu.be/rzZ6RvnGIg8" target="_blank" rel="noopener noreferrer" class="project-item">
+                <img src="https://img.youtube.com/vi/rzZ6RvnGIg8/maxresdefault.jpg"
+                    alt="Thumbnail for Yaad cinematic recreation by Jay Joshi" loading="lazy">
+                <div class="play-btn"><i class="fas fa-play"></i></div>
+                <div class="project-overlay">
+
+                    <h3>
+                        <span class="heading-bold">Yaad </span>
+
+                    </h3>
+                    <p>Bilingual Cinematic Track • Watch on YouTube</p>
+                </div>
+            </a>
+
+            <!-- Project 5 (existing) -->
+            <a href="https://youtu.be/BJh1RG8K5EM" target="_blank" rel="noopener noreferrer" class="project-item">
+                <img src="https://img.youtube.com/vi/BJh1RG8K5EM/maxresdefault.jpg"
+                    alt="Thumbnail for Darkness In The World - Instrumental by Jay Tejas" loading="lazy">
+                <div class="play-btn"><i class="fas fa-play"></i></div>
+                <div class="project-overlay">
+                    <h3>
+                        <span class="heading-bold">Darkness In The World - An Instrumental </span>
+
+                    </h3>
+                    <p>Moody Instrumental • Watch on YouTube</p>
+                </div>
+            </a>
+
+
+        </div>
+    </section>
+    <!-- Services -->
+    <section id="services" class="section dark-section">
+        <div class="wrapper services-layout">
+            <h2>
+                <span class="heading-light">Our</span>
+                <span class=" heading-bold">Services</span>
+            </h2>
+            <div class="section-line"></div>
+            <p class="section-description">
+                Explore our ongoing projects and initiatives that aim to spread the love
+                for R&B music. We are dedicated to creating captivating melodies and lyrics that touch the soul.
+            </p>
+
+            <div class="services-grid">
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>
+                        <span class="heading-bold">Music Composition & Song <br> Production</span>
+                    </h3>
+                    <p>Original music crafted from idea to final master, <br>built around story and emotion.</p>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>
+                        <span class="heading-bold">Film Background <br> Scores</span>
+                    </h3>
+
+                    <p>Cinematic sound designed to enhance visuals, <br>tension, and narrative impact.</p>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <img src="images/Orchestral.png" alt="Orchestra Icon">
+                    </div>
+                    <h3>
+                        <span class="heading-bold">Orchestral & Music <br> Arrangements</span>
+                    </h3>
+
+                    <p>Layered, immersive arrangements that bring <br>scale, depth, and character to sound.</p>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>
+                        <span class="heading-bold">Recording, Dubbing &<br> Voice Overs</span>
+                    </h3>
+                    <p>Professional audio production for vocals, films,<br> ads, and branded content.</p>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <img src="images/JIngle (2).png" alt="Jingle Icon">
+                    </div>
+                    <h3>
+                        <span class="heading-bold">Jingle & Brand Sound <br> Production</span>
+                    </h3>
+                    <p>Memorable sonic identities created for <br> advertising, brands, and campaigns.</p>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <img src="images/Cinematic-07.png" alt="Trailer Icon">
+                    </div>
+                    <h3>
+                        <span class="heading-bold">Trailer & Promotional <br> Music</span>
+                    </h3>
+                    <p>High-energy, cinematic soundtracks built <br> to create anticipation and attention.</p>
+                </div>
+
+            </div>
+
+    </section>
+
+    <!-- testimonial-->
+
+
+    <section class="Testimonials" id="Testimonials">
+        <div class="Testimonials-overlay">
+            <div class="wrapper Testimonials-layout">
+                <h2>
+                    <span class="heading-bold">Testimonials </span>
+
+                </h2>
+                <div class="section-line"></div>
+
+                <!-- Optional main quote / title area -->
+                <div class="stars">★★★★★</div>
+                <div class="Testimonials-main-quote">"Best music production ever..."</div>
+
+                <div class="Testimonials-container">
+                    <!-- Left column -->
+                    <div class="Testimonials-column left">
+                        <a href="images/testimonials1.MP4" target="_blank" class="video-icon">
+                            <img src="images/Testimonial.png" alt="Play Video">
+                        </a>
+                        <div class="stars">★★★★★</div>
+                        <div class="author">Mr. Jay Vasavada </div>
+                    </div>
+
+                    <!-- Center column (larger text) -->
+                    <div class="Testimonials-column center">
+                        <a href="images/testimonials2.MP4" target="_blank" class="video-icon">
+                            <img src="images/Testimonial.png" alt="Play Video">
+                        </a>
+                        <div class="stars">★★★★★</div>
+                        <div class="author">Mr. Pravin Parmar </div>
+                    </div>
+
+                    <!-- Right column -->
+                    <div class="Testimonials-column right">
+                        <a href="images/testimonials1.MP4" target="_blank" class="video-icon">
+                            <img src="images/Testimonial.png" alt="Play Video">
+                        </a>
+                        <div class="stars">★★★★★</div>
+                        <div class="author">Mr. Jay Vasavada</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---contact & footer-->
+    <section id="contact" class="footer-section">
+        <div class="container footer-grid">
+            <!-- Brand -->
+            <div class="footer-brand">
+                <div class="footer-img">
+                    <img src="images/Manzilll Horizontal Logo (2).png" alt="Manzilll Production Studio">
+                </div>
+                <p>
+                    Professional music production, mixing and mastering. <br>
+                    Creating powerful sound experiences.
+                </p>
+            </div>
+
+            <!-- Column 1 - Navbar -->
+            <div class="footer-col">
+                <h3><span class="heading-bold">Quick Links</span></h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 2 - Contact -->
+            <div class="footer-col">
+                <h3><span class="heading-bold">Contact</span></h3>
+                <ul class="contact-details">
+
+                    <li>
+                        <a href="mailto:manzilllrocksjt@gmail.com">
+
+                            manzilllrocksjt@gmail.com
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tel:+919638183663">
+
+                            +91 9638183663
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Column 3 - Social Icons -->
+            <div class="footer-col">
+                <h3><span class="heading-bold">Socials</span></h3>
+
+                <div class="social-icons">
+                    <a href="https://instagram.com/manzilll_production" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://youtube.com/@manzilllproduction6662" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/111746627/admin/dashboard/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>© 2026 Manzilll Production. All Rights Reserved.</p>
+            </div>
+
+            <script src="script.js"></script>
+</body>
+
+</html>
